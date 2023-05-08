@@ -2,13 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: wheat;
   }
   
   h1 {
     background-color: #3c3c3c;
     color: white;
     padding: 10px;
+    text-decoration: underline;
   }
   
   form {
@@ -21,9 +22,9 @@ body {
   }
   
   th, td {
-    padding: 5px;
+    padding: 5px; 
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid grey;
   }
   
   tr:hover {
