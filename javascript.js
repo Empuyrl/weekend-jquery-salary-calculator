@@ -3,39 +3,39 @@
 // let totalMonthlyCost = 0;
 //     $("#submitButton").on("click", addEmployee)
 // });
-// //readyNow function, on page load whatever is in here happens
+// // readyNow function, on page load whatever is in here happens
 
-// // function addEmployee() {
-// //     const tableBody = $("tbody");
-// //     const firstIn = $("firstInput");
-// //     const lastIn = $("lastInput");
-// //     const idIn = $("idInput");
-// //     const titleIn = $("titleInput");
-// //     const annualIn = $("annualInput");
+// function addEmployee() {
+//     const tableBody = $("tbody");
+//     const firstIn = $("firstInput");
+//     const lastIn = $("lastInput");
+//     const idIn = $("idInput");
+//     const titleIn = $("titleInput");
+//     const annualIn = $("annualInput");
 
-// //     if (firstIn.val() === '' || lastIn.val() === '' || idIn.val() === '' || titleIn.val() === '' || annualIn.val() === '') {
-// //         alert("Please fill out all of the infomation");
-// //         return;
-// //     }
+//     if (firstIn.val() === '' || lastIn.val() === '' || idIn.val() === '' || titleIn.val() === '' || annualIn.val() === '') {
+//         alert("Please fill out all of the infomation");
+//         return;
+//     }
 
-// //     console.log(`The data is coming in: First, ${firstIn}, Last, ${lastIn}, Id, ${idIn}, Title, ${titleIn}, Annual, ${annualIn} `);
+//     console.log(`The data is coming in: First, ${firstIn}, Last, ${lastIn}, Id, ${idIn}, Title, ${titleIn}, Annual, ${annualIn} `);
 
-// //     const employeeInfo = `<tr>
-// //         <td>${firstIn}</td>
-// //         <td>${lastIn}</td>
-// //         <td>${idIn}</td>
-// //         <td>${titleIn}</td>
-// //         <td>${annualIn}</td>
-// //             <td><button class="deleteButton">Delete</button></td>
-// //       </tr>`
+//     const employeeInfo = `<tr>
+//         <td>${firstIn}</td>
+//         <td>${lastIn}</td>
+//         <td>${idIn}</td>
+//         <td>${titleIn}</td>
+//         <td>${annualIn}</td>
+//             <td><button class="deleteButton">Delete</button></td>
+//       </tr>`
 
-// //       tableBody.apprend(employeeInfo);
+//       tableBody.append(employeeInfo);
 
-// //       firstIn.val("");
-// //       lastIn.val("");
-// //       idIn.val("");
-// //       titleIn.val("");
-// //       annualIn.val("");
+//       firstIn.val("");
+//       lastIn.val("");
+//       idIn.val("");
+//       titleIn.val("");
+//       annualIn.val("");
 
 // }
 
