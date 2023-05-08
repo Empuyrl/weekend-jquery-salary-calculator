@@ -1,8 +1,39 @@
-table {
-    border: 10cap;
-}
-
-tr td {
-    border: 10cap;
-    padding: 5%;
-}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    background-color: #3c3c3c;
+    color: white;
+    padding: 10px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  #totalMonthlyCost {
+    color: green;
+  }
+  
+  .red-background {
+    background-color: red;
+  }
