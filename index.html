@@ -9,38 +9,50 @@
     <title>Weekend Calculator JQUERY</title>
   </head>
   <body>
-    <h1>Salary Calculator</h1>
     <main>
      <div>
-      <input type="text" placeholder="First Name" id="firstIn">
-      <input type="text" placeholder="Last Name" id="lastIn">
-      <input type="text" placeholder="ID" id="idIn">
-      <input type="text" placeholder="Title" id="titleIn">
-      <input type="Number" placeholder="Annual Salary" id="annualIn">
-      <button id="submitButton">Submit</button>
+      <body>
+  <h1>Employee Salary Calculator</h1>
+  <form id="employeeForm">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstInput" name="firstName" required>
+    <br>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastInput" name="lastName" required>
+    <br>
+    <label for="idNumber">ID Number:</label>
+    <input type="number" id="idInput" name="idNumber" required>
+    <br>
+    <label for="jobTitle">Job Title:</label>
+    <input type="text" id="titleInput" name="jobTitle" required>
+    <br>
+    <label for="annualSalary">Annual Salary:</label>
+    <input type="number" id="annualInput" name="annualSalary" step="0.01" required>
+    <br>
+    <button type="submit">Submit</button>
+  </form>     
      </div>
-     <table>
-      <thead>
+  <h2>Total Monthly Cost: <span id="totalMonthlyCost">$0.00</span></h2>
+  <table>
+    <thead>
       <tr>
         <th>First Name</th>
         <th>Last Name</th>
         <th>ID</th>
         <th>Title</th>
         <th>Annual Salary</th>
-        <th>Action</th>
+        <th>Delete</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-      <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><button class="deleteButton">Delete</button></td>
-        </tr>
+    <tbody id="employeeTable">
     </tbody>
-     </table>
-    </main>
-  </body>
+  </table>
+</body>
 </html>
+
+ <!-- <input type="text" placeholder="First Name" id="firstInput">
+      <input type="text" placeholder="Last Name" id="lastInput">
+      <input type="number" placeholder="ID" id="idInput">
+      <input type="text" placeholder="Title" id="titleInput">
+      <input type="number" placeholder="Annual Salary" id="annualInput">
+      <button type="submit" id="submitButton">Submit</button> -->
