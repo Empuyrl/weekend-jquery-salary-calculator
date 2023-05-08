@@ -1,17 +1,3 @@
-
-//    
-
-//     const employeeInfo = `<tr>
-//         <td>${firstIn}</td>
-//         <td>${lastIn}</td>
-//         <td>${idIn}</td>
-//         <td>${titleIn}</td>
-//         <td>${annualIn}</td>
-//             <td><button class="deleteButton">Delete</button></td>
-//       </tr>`
-
-// }
-
 $(document).ready(function () {
     console.log("JQ and JS")
     let totalMonthlyCost = 0;
